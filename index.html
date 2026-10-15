@@ -71,6 +71,7 @@
                     <a href="#about" class="text-gray-600 hover:text-brand-DEFAULT font-medium transition-colors">About Us</a>
                     <a href="#curriculum" class="text-gray-600 hover:text-brand-DEFAULT font-medium transition-colors">Program</a>
                     <a href="#audience" class="text-gray-600 hover:text-brand-DEFAULT font-medium transition-colors">For You?</a>
+                    <a href="#appointments" class="text-gray-600 hover:text-brand-DEFAULT font-medium transition-colors">Meetings</a>
                     <a href="#register" class="bg-brand-DEFAULT hover:bg-brand-dark text-white px-6 py-2.5 rounded-full font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
                         Join Us
                     </a>
@@ -90,6 +91,7 @@
             <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-brand-DEFAULT hover:bg-brand/5 rounded-md">About Us</a>
             <a href="#curriculum" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-brand-DEFAULT hover:bg-brand/5 rounded-md">Program</a>
             <a href="#audience" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-brand-DEFAULT hover:bg-brand/5 rounded-md">For You?</a>
+            <a href="#appointments" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-brand-DEFAULT hover:bg-brand/5 rounded-md">Meetings</a>
             <a href="#register" class="block px-3 py-2 mt-4 text-center text-base font-medium text-white bg-brand-DEFAULT rounded-md hover:bg-brand-dark">Join Us</a>
         </div>
     </nav>
@@ -305,101 +307,154 @@
         </div>
     </section>
 
-    <!-- Registration Section -->
-    <section id="register" class="py-24 bg-white relative">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-gray-100">
-                
-                <!-- Info Side -->
-                <div class="md:w-5/12 bg-brand-DEFAULT p-10 text-white flex flex-col justify-between relative overflow-hidden">
-                    <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-white opacity-5"></div>
-                    <div class="absolute bottom-0 left-0 -ml-16 -mb-16 w-48 h-48 rounded-full bg-brand-dark opacity-20"></div>
-                    
+    <!-- Appointments & Meetings Section -->
+    <section id="appointments" class="py-24 bg-white relative border-t border-brand/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-brand-DEFAULT font-semibold tracking-wide uppercase text-sm mb-2">Sessions & Meetings</h2>
+                <h3 class="font-serif text-3xl md:text-4xl font-bold text-brand-dark mb-4">Appointments & Meetings</h3>
+                <p class="text-gray-600 text-lg font-light">
+                    Connect with us in person at our weekly sessions. Come, share your story, and take the first step toward your transformation.
+                </p>
+            </div>
+
+            <!-- Info Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Day -->
+                <div class="bg-brand-light rounded-2xl p-8 text-center shadow-sm border border-brand/10 hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 rounded-full bg-brand-DEFAULT/15 flex items-center justify-center text-brand-DEFAULT text-3xl mx-auto mb-5">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl text-brand-dark mb-2">Day</h4>
+                    <p class="text-brand-DEFAULT font-semibold text-lg">Every Thursday</p>
+                    <p class="text-gray-500 text-sm font-light mt-1">Weekly sessions</p>
+                </div>
+
+                <!-- Schedule -->
+                <div class="bg-brand-light rounded-2xl p-8 text-center shadow-sm border border-brand/10 hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 rounded-full bg-brand-DEFAULT/15 flex items-center justify-center text-brand-DEFAULT text-3xl mx-auto mb-5">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl text-brand-dark mb-2">Schedule</h4>
+                    <p class="text-brand-DEFAULT font-semibold text-lg">5:00 PM – 6:15 PM</p>
+                    <p class="text-gray-500 text-sm font-light mt-1">75-minute sessions</p>
+                </div>
+
+                <!-- Location -->
+                <div class="bg-brand-light rounded-2xl p-8 text-center shadow-sm border border-brand/10 hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 rounded-full bg-brand-DEFAULT/15 flex items-center justify-center text-brand-DEFAULT text-3xl mx-auto mb-5">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h4 class="font-serif font-bold text-xl text-brand-dark mb-2">Location</h4>
+                    <p class="text-brand-DEFAULT font-semibold text-lg">Teatro Baralt, Maracaibo, Zulia, Venezuela.</p>
+                    <p class="text-gray-500 text-sm font-light mt-1">In-person sessions</p>
+                </div>
+            </div>
+
+            <!-- Meeting Request Form + Contact -->
+            <div class="bg-brand-dark rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+                <!-- Contact Info Side -->
+                <div class="lg:w-5/12 p-10 md:p-12 relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-72 h-72 rounded-full bg-white opacity-5"></div>
+                    <div class="absolute bottom-0 left-0 -ml-16 -mb-16 w-56 h-56 rounded-full bg-brand-DEFAULT opacity-20"></div>
                     <div class="relative z-10">
-                        <h3 class="font-serif text-3xl font-bold mb-4">Join Us</h3>
-                        <p class="font-light text-white/90 mb-8">
-                            Join the Synergy pilot program. Spots are strictly limited to ensure an intimate and personalized experience.
-                        </p>
-                        
-                        <div class="space-y-6">
-                            <div class="flex items-start">
-                                <i class="fa-regular fa-calendar mt-1 mr-4 text-brand-accent"></i>
+                        <h4 class="font-serif text-3xl font-bold text-white mb-3">Contact Us</h4>
+                        <p class="text-white/70 font-light mb-10">Have questions about our meetings? Reach out directly — we'd love to hear from you.</p>
+
+                        <div class="space-y-7">
+                            <div class="flex items-start gap-4">
+                                <div class="w-11 h-11 rounded-full bg-brand-accent/20 flex items-center justify-center text-brand-accent flex-shrink-0">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
                                 <div>
-                                    <h5 class="font-semibold">Start Date</h5>
-                                    <p class="font-light text-sm text-white/80">Coming Soon (Waitlist)</p>
+                                    <p class="text-white/50 text-xs uppercase tracking-widest mb-0.5">Phone / WhatsApp</p>
+                                    <a href="https://wa.me/584149612196" target="_blank" class="text-white font-semibold text-lg hover:text-brand-accent transition-colors">0414-961-2196</a>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <i class="fa-solid fa-location-dot mt-1 mr-4 text-brand-accent"></i>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-11 h-11 rounded-full bg-brand-accent/20 flex items-center justify-center text-brand-accent flex-shrink-0">
+                                    <i class="fa-regular fa-calendar-days"></i>
+                                </div>
                                 <div>
-                                    <h5 class="font-semibold">Format</h5>
-                                    <p class="font-light text-sm text-white/80">100% Live Online</p>
+                                    <p class="text-white/50 text-xs uppercase tracking-widest mb-0.5">Sessions</p>
+                                    <p class="text-white font-semibold">Every Thursday</p>
+                                    <p class="text-white/70 text-sm font-light">5:00 PM – 6:15 PM</p>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <i class="fa-solid fa-envelope mt-1 mr-4 text-brand-accent"></i>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-11 h-11 rounded-full bg-brand-accent/20 flex items-center justify-center text-brand-accent flex-shrink-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
                                 <div>
-                                    <h5 class="font-semibold">Contact</h5>
-                                    <p class="font-light text-sm text-white/80">hello@synergywomen.com</p>
+                                    <p class="text-white/50 text-xs uppercase tracking-widest mb-0.5">Address</p>
+                                    <p class="text-white font-semibold">Teatro Baralt, Maracaibo, Zulia, Venezuela</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-11 h-11 rounded-full bg-brand-accent/20 flex items-center justify-center text-brand-accent flex-shrink-0">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="text-white/50 text-xs uppercase tracking-widest mb-0.5">Email</p>
+                                    <a href="mailto:hello@synergywomen.com" class="text-white font-semibold hover:text-brand-accent transition-colors">espitialeidany@gmail.com</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Form Side -->
-                <div class="md:w-7/12 p-10">
-                    <h4 class="text-2xl font-bold text-gray-800 mb-6">Enter Your Details</h4>
-                    
-                    <form id="registrationForm" onsubmit="handleFormSubmit(event)" class="space-y-5">
+                <!-- Appointment Request Form -->
+                <div class="lg:w-7/12 bg-white p-10 md:p-12">
+                    <h4 class="font-serif text-2xl font-bold text-brand-dark mb-2">Request a Meeting</h4>
+                    <p class="text-gray-500 font-light mb-8">Fill out the form and we will confirm your appointment for the next available Thursday session.</p>
+
+                    <form id="appointmentForm" onsubmit="handleAppointmentSubmit(event)" class="space-y-5">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <div>
-                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                                <input type="text" id="firstName" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="Your first name">
+                                <label for="apptName" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                <input type="text" id="apptName" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="Your name">
                             </div>
                             <div>
-                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                                <input type="text" id="lastName" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="Your last name">
+                                <label for="apptPhone" class="block text-sm font-medium text-gray-700 mb-1">Phone / WhatsApp</label>
+                                <input type="tel" id="apptPhone" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="0414-000-0000">
                             </div>
                         </div>
 
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                            <input type="email" id="email" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="email@example.com">
+                            <label for="apptEmail" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" id="apptEmail" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="email@example.com">
                         </div>
 
                         <div>
-                            <label for="businessName" class="block text-sm font-medium text-gray-700 mb-1">Business Name</label>
-                            <input type="text" id="businessName" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800" placeholder="What is your company called?">
-                        </div>
-                        
-                        <div>
-                            <label for="challenge" class="block text-sm font-medium text-gray-700 mb-1">What is your biggest current challenge?</label>
-                            <select id="challenge" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800">
-                                <option value="" disabled selected>Select an option</option>
-                                <option value="time">Lack of time for my family</option>
-                                <option value="burnout">Exhaustion / Burnout</option>
-                                <option value="delegation">Difficulty delegating tasks</option>
-                                <option value="growth">Business stagnation</option>
-                                <option value="other">Other</option>
-                            </select>
+                            <label for="apptDate" class="block text-sm font-medium text-gray-700 mb-1">Preferred Thursday</label>
+                            <input type="date" id="apptDate" required class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800">
                         </div>
 
-                        <button type="submit" class="w-full bg-brand-dark hover:bg-brand-DEFAULT text-white font-medium py-3 rounded-lg shadow-md transition-colors duration-300 flex justify-center items-center gap-2 mt-4">
-                            <span>Join the Waitlist</span>
-                            <i class="fa-solid fa-paper-plane"></i>
+                        <div>
+                            <label for="apptMessage" class="block text-sm font-medium text-gray-700 mb-1">Message (optional)</label>
+                            <textarea id="apptMessage" rows="3" class="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-DEFAULT focus:border-brand-DEFAULT outline-none transition-all bg-gray-50 focus:bg-white text-gray-800 resize-none" placeholder="Tell us a bit about your situation or what you'd like to discuss..."></textarea>
+                        </div>
+
+                        <button type="submit" id="apptSubmitBtn" class="">
+                            <span>Sent</span>
+                            <i class="fa-solid fa-calendar-check"></i>
                         </button>
-                        
-                        <!-- Success Message (Hidden) -->
-                        <div id="successMessage" class="hidden mt-4 p-4 bg-green-50 text-green-700 rounded-lg border border-green-200 flex items-start gap-3">
+
+                        <div id="apptSuccessMessage" class="hidden mt-4 p-4 bg-green-50 text-green-700 rounded-lg border border-green-200 flex items-start gap-3">
                             <i class="fa-solid fa-circle-check mt-1"></i>
-                            <p class="text-sm font-medium">Thank you for registering! We have received your details and will contact you soon with more information.</p>
+                            <p class="text-sm font-medium">Your appointment request has been sent! We will contact you via WhatsApp to confirm your spot for the next Thursday session.</p>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Registration Section -->
+
 
     <!-- Footer -->
     <footer class="bg-brand-dark text-brand-light py-12 border-t border-white/10">
@@ -480,37 +535,56 @@
             }
         });
 
-        // Form Handling
+        // Registration Form Handling
         function handleFormSubmit(event) {
-            event.preventDefault(); // Prevent page reload
-            
-            // Get button and original text to show loading state
+            event.preventDefault();
             const submitBtn = event.target.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
-            
-            // Show loading state
             submitBtn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Processing...';
             submitBtn.disabled = true;
             submitBtn.classList.add('opacity-80', 'cursor-not-allowed');
-
-            // Simulate API call delay
             setTimeout(() => {
-                // Hide button, show success message
                 submitBtn.classList.add('hidden');
                 document.getElementById('successMessage').classList.remove('hidden');
-                
-                // Reset form fields
                 event.target.reset();
-                
-                // Revert button state after a few seconds
                 setTimeout(() => {
                     submitBtn.classList.remove('hidden', 'opacity-80', 'cursor-not-allowed');
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
                     document.getElementById('successMessage').classList.add('hidden');
                 }, 5000);
-                
             }, 1500);
+        }
+
+        // Appointment Form Handling
+        function handleAppointmentSubmit(event) {
+            event.preventDefault();
+            const submitBtn = document.getElementById('apptSubmitBtn');
+            const originalHTML = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            submitBtn.classList.add('opacity-80', 'cursor-not-allowed');
+            setTimeout(() => {
+                submitBtn.classList.add('hidden');
+                document.getElementById('apptSuccessMessage').classList.remove('hidden');
+                event.target.reset();
+                setTimeout(() => {
+                    submitBtn.classList.remove('hidden', 'opacity-80', 'cursor-not-allowed');
+                    submitBtn.innerHTML = originalHTML;
+                    submitBtn.disabled = false;
+                    document.getElementById('apptSuccessMessage').classList.add('hidden');
+                }, 6000);
+            }, 1500);
+        }
+
+        // Set minimum date for appointment picker to today
+        const apptDateInput = document.getElementById('apptDate');
+        if (apptDateInput) {
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            apptDateInput.min = `${yyyy}-${mm}-${dd}`;
         }
     </script>
 </body>
